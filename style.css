@@ -1,0 +1,29 @@
+main {
+    min-height: 100vh;
+    flex-grow: 5;
+}
+
+#a1menu {
+    border:1px black solid;
+    border-radius: 4px;
+    max-width: 100px;
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+}
+
+#map {
+    border:1px lightgrey solid;
+    height: 600px;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    main {
+      max-width: 100%;
+    }
+  } 

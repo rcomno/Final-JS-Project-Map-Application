@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="app.js" defer></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <link rel="stylesheet" href="style.css">
+    <title>JS Final Project</title>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div id="a1">
+                <label for="Locations">Choose a Location</label>
+                <select name="Locations" id="a1menu">
+                    <option value="none"></option>
+                    <option value="Coffee">Coffee</option>
+                    <option value="Restaurant">Restaurant</option>
+                    <option value="Hotel">Hotel</option>
+                    <option value="Market">Market</option>
+                </select>
+                <button id="button1">Submit</button>
+            </div>
+            <div id="map"></div>
+        </main>
+    </div> 
+</body>
+</html>
